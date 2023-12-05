@@ -21,6 +21,7 @@ export default function NavBar() {
             </div>
             <div className="hidden md:inline md:self-center">
                 <ul className='md:flex font-[Poppins] text-[1.3vw]'>
+                    <li>count 3</li>
                     <li className='px-[1.5vw]'>About</li>
                     <li className='px-[1.5vw]'>Services</li>
                     <li className='px-[1.5vw]'>Testimonials</li>
@@ -34,6 +35,7 @@ export default function NavBar() {
         </div>
         <div className="body-content">
             <ul className={`${NavState?"":"hidden"} box `} id="mobile-nav">
+            <li>count 3</li>
                 <li>About</li>
                 <li>Services</li>
                 <li>Testimonials</li>
