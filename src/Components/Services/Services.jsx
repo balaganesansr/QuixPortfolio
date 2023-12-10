@@ -7,14 +7,15 @@ import Image4 from './images/image4.png'
 import Image5 from './images/image5.png'
 import Image6 from './images/image6.png'
 
+
 export default function Services() {
   return (
-    <div className="flex flex-col align-center md:h-screen">{/*<Services-root>*/}
+    <div className="flex flex-col align-center md:mt-[4rem] md:h-[100%]">{/*<Services-root>*/}
 
-    {/*<Services>*/}<div className="font-rock-salt flex justify-center md:text-[2.5vw] md:mt-[2vh] md:h-[13vh] mt-[4vh] text-[4vw]">Services</div>{/*<---/Services>*/}
+    {/*<Services>*/}<div className="font-rock-salt flex justify-center relative md:text-[2.5vw] md:mt-[2vh] md:h-[7vw] mt-[4vh] text-[4vw]">Services</div>{/*<---/Services>*/}
     <div className="md:hidden h-[8vw]"></div>
     <div className='flex justify-center '>
-        <div className="grid md:w-[80vw] place-items-center grid-cols-1 md:grid-cols-3 gap-y-[5vw]">{/*<Card-body>*/}
+        <div className="grid md:w-[80vw] place-items-center grid-cols-1 md:grid-cols-3 gap-y-[5vw] gap-x-[5vw]">{/*<Card-body>*/}
           
           <Card Image={Image1} Title="UI/UX Design" Content="Our UI/UX designs turn concepts into captivating experiences. Elevate user engagement and conversion rates with our user-centric approach."/>
           <Card Image={Image2} Title="Graphic Design" Content="From branding to visuals, we craft striking graphics that bring your brand to life and captivate your audience."/>

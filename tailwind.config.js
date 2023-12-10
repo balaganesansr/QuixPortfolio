@@ -8,7 +8,7 @@ export default {
         "pecita" : "Pecita"
       },
       backgroundImage : {
-        "about-bg":"url('./src/Components/AboutUs/image2.png')"
+        "about-bg":"url('C:/Users/balag/OneDrive/Desktop/Projects/Quix/QuixPortfolio/src/Components/AboutUs/image2.png')"
       }
     },
   },

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Card(props) {
   return (
-    <div className="md:w-[17vw] w-[80vw] h-[40vh] md:h-[17vw] bg-red-400 rounded-bl-[10px] md:shadow-lg rounded-br-[10px] shadow">
+    <div className="md:w-[17vw] w-[80vw] h-[40vh] md:h-[17vw] rounded-bl-[10px] md:shadow-lg rounded-br-[10px] shadow">
         <div className="">
             <img src={props.Image} className='relative w-full md:h-[50%] h-[20vh]' alt="" />
         </div>

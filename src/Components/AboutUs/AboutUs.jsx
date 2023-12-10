@@ -7,7 +7,7 @@ export default function AboutUs() {
 
 {/*<image-Desktop>*/}<div className="hidden md:inline"><img src={Image1} alt="" className=' w-[40vw] relative md:h-full  ' /></div>{/*<---/image-Desktop>*/}
       <div className=" md:w-[70vw]">
-        {/*<AboutUS>*/}<div className="md:text-black text-white md:text-[2.5vw] text-[4vw] pt-5 flex justify-center font-normal bg-about-bg md:bg-none font-rock-salt">About Us</div>{/*<---/AboutUS>*/}
+        {/*<AboutUS>*/}<div className="md:text-black md:ml-[9vw] text-white md:text-[2.5vw] text-[4vw] pt-5 flex justify-start  font-normal bg-about-bg md:bg-none font-rock-salt">About Us</div>{/*<---/AboutUS>*/}
 {/*<image-Mobile>*/}<div className="md:hidden mb-[5vw]"><img src={Image1} alt="" className='w-screen' /></div>{/*<---/image-Mobile>*/}
         <div className="flex items-center justify-center ">{/*<BoxAndText>*/}
 
